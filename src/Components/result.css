@@ -1,0 +1,33 @@
+.finalresult{
+    margin: 0 auto;
+    background-color: gray;
+    padding: 16px;
+    border-radius: 16px;
+    color: white;
+    box-shadow: -8px -8px 15px rgba(40, 72, 152, 0.1), 5px 5px 15px rgba(70, 61, 61, 0.2);
+    width: 100%;
+    height: auto;
+    
+
+}
+button{
+    padding: 10px 30px;
+    margin: 20px;
+    border-radius: 20px;
+    color: white;
+    background-color: red;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+.finalresult::before , .finalresult::after{
+    content: '';
+    position: absolute;
+    left: -2px;
+    top: -2px;
+    background: linear-gradient(45deg , #e6fb04 , #ff6600 , #00ff66, #00ffff, #ff00ff,#ff0099,#6e0dd0,#ff3300,#099fff);
+background-size: 400%;
+width: calc(100% + 5px);
+height: calc(100% + 20px);
+z-index: -1;
+}

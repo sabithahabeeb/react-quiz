@@ -1,0 +1,34 @@
+.home{
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://i.makeagif.com/media/11-09-2015/-za6Bu.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+width: 50%;
+height: auto;
+}
+input{
+    width: 400px;
+    height: 50px;
+    padding: 1px;
+    text-align: center;
+    border-radius: 16px;
+    /* color: yellow; */
+    font-size: 25px;
+    font-weight: bold;
+}
+.start{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    font-size: 100px;
+}
